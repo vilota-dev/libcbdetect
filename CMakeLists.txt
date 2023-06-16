@@ -24,7 +24,7 @@ elseif (WIN32)
   endif ()
 endif ()
 
-option(SHARED_LIB "Request build of shared libraries." ON)
+option(SHARED_LIB "Request build of shared libraries." OFF)
 if (SHARED_LIB)
   if (WIN32)
     add_definitions("-DIS_A_DLL")
